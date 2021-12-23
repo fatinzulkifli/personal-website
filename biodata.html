@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<title>Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.header{
+  padding: 190px;
+  text-align: center;
+  color: black;
+  background-color: #8585ad;
+  background-size: 100% 120%;
+  min-height: 50%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  word-break: break-all;
+}
+
+.row {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row1 {
+  margin: 5px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Add padding BETWEEN each column */
+.row1,
+.row1 > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  border: 4px solid red;
+  border-radius: 1px;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Clear floats after rows */ 
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+h2{
+   font-size: 40px;
+   }
+   ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	}
+body{
+	background-color : #9c9f84;
+	margin : 0px;
+	font-family:lucida sans;
+	font-size:14px
+}
+#header {
+background-color : #5c755e;
+margin : 10px;
+height :90px;
+border-radius :5px;
+}
+#navbar  ul{
+padding : 1px;
+list-style-type : none;
+text-align : center;
+align:center;
+}
+#navbar ul li {
+display: inline;
+
+line-height : 50px;
+text-align : center;
+font:bold 40px helvetica;
+text-shadow:3px 3px 5px orange,
+	    6px 6px 10px blue;
+}
+#navbar ul li a {
+text-decoration : none;
+font-family : Arial ;
+padding : 2em,1em;
+color :#fff;
+}
+#navbar ul li a:hover{
+color : #000;
+background-color: #fff;
+cursor : none;
+}
+#footer {
+text-align:center;
+background-color : #5c755e;
+margin :20px;
+height : 120px;
+clear:both;
+border-radius: 5px;
+}
+h3 {
+font-size : 300%;
+text-align : center;
+color : #e5e4d7;
+font-family : "century gothic" ,"gill sans",arial;
+margin:0px;
+	position: relative;
+	top:7%;
+	-webkit-transform.translateY(-1%);
+	-ms-transform: translateY(-1%);
+	transform: translateY(-1%);
+}
+
+h4 {
+font-size : 300%;
+text-align : center;
+color : #e5e4d7;
+font-family : "century gothic" ,"gill sans",arial;
+margin:50px;
+	position: relative;
+	top:16%;
+	-webkit-transform.translateY(-1%);
+	-ms-transform: translateY(-1%);
+	transform: translateY(-1%)
+}
+
+h5 {
+font-size : 300%;
+text-align : center;
+color : #e5e4d7;
+font-family : "century gothic" ,"gill sans",arial;
+margin:0px;
+	position: relative;
+	top:50%;
+	-webkit-transform.translateY(-6%);
+	-ms-transform: translateY(-6%);
+	transform: translateY(-6%);
+}
+
+.child{
+border-bottom-left-radius:10px;
+border-top-left-radius:10px;
+}
+#box{
+	padding:5px;
+	margin-left:130px;
+	margin-top:10px;
+	align:center;
+	width:250px;
+	height:200px;
+	background-color:#4c7c4b;
+	box-shadow:15px 15px 5px #a9755e;
+}
+.side1{
+	margin-top:25px;
+	margin-left:430px;
+	align:center;
+	text-align: center;
+	width:380px;
+	background-color:#4c7c4b;
+	box-shadow:15px 15px 5px #a9755e;
+}
+.side2{
+	margin-top:25px;
+	margin-left:850px;
+	align:center;
+	text-align:center;
+	width:385px;
+	background-color:#4c7c4b;
+	box-shadow:15px 15px 5px #a9755e;
+	
+}
+.side3{
+	margin-top:25px;
+	margin-left:1095px;
+	align:center;
+	width:250px;
+	background-color:#4c7c4b;
+	box-shadow:15px 15px 5px #a9755e;
+}
+
+.w3-xlarge w3-section {
+  padding: 60px;
+  font-size: 80px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 25px 20px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: black;
+}
+
+.fa-twitter {
+    background: transparent;
+  color: black;
+}
+
+.fa-google {
+   background: transparent;
+  color: black;
+}
+
+.fa-linkedin {
+    background: transparent;
+  color: black;
+}
+
+.fa-youtube {
+  background: transparent;
+  color: black;
+}
+
+.fa-instagram {
+    background: transparent;
+  color: black;
+}
+
+.fa-pinterest {
+    background: transparent;
+  color: black;
+}
+
+.fa-snapchat-ghost {
+    background: transparent;
+  color: black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+    background: transparent;
+  color: black;
+}
+
+.fa-android {
+    background: transparent;
+  color: black;
+}
+
+.fa-tumblr {
+   background: transparent;
+  color: black;
+}
+
+.fa-yahoo {
+   background: transparent;
+  color: black;
+}
+
+
+
+</style>
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+	<a href="index1.html" class="w3-bar-item w3-button w3-wide">
+    <span class="w3-display-left w3-text-white" style="padding:98px">
+    </span>Personal Website</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="biodata.html" class="w3-bar-item w3-button"><i class="fa fa-info-circle"></i> BIODATA</a>
+	  <a href="experience.html" class="w3-bar-item w3-button"><i class="fa fa-smile-o"></i> EXPERIENCE</a>
+	  <a href="edu.html" class="w3-bar-item w3-button"><i class="fa fa-mortar-board"></i> EDUCATION</a>
+	  <a href="family.html" class="w3-bar-item w3-button"><i class="fa fa-heartbeat"></i> FAMILY</a>
+	  <a href="gallery.html" class="w3-bar-item w3-button"><i class="fa fa-photo"></i> GALLERY</a>      
+      <a href="video.html" class="w3-bar-item w3-button"><i class="fa fa-video-camera"></i> MY VIDEO</a>	  
+    </div>
+  </div>
+</div>
+		<br>
+		<br>
+		<br>
+<br>
+<br>
+<h2 style="text-align:center">Fatin's Profile</h2>
+<br>
+<br>
+
+<div class="card">
+  <img src="20.png" alt="John" style="width:80%">
+  <h1>Fatin Zulkifli</h1>
+  <p class="title">Full Time Student</p>
+  <p>Universiti Teknologi Mara(UiTM) Kedah</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+</div>
+
+</body>
+</html>
+<html>
+<head>
+
+<title>
+My Biodata
+</title>
+<link rel="stylesheet" type="text/css" href="my sheet.css">
+</head>
+<body>
+<div id="header">
+<h3><center><b><marquee behavior="scroll" scrollamount="15" direction="left">BIODATA ABOUT MYSELF</marquee></b></center></h3>
+</div>
+<div id="navbar">
+<ul>
+</ul>
+</div>
+</font>
+<div id="box">
+<font size=5><center><b>WELCOME !!!!!.....</b><br>
+This is biodata of <i>Fatin Zulkifli</i><br>
+Have a nice day<br>
+</center></font>
+</div>
+<div class="side1">
+<h5>Personal Information</h5>
+<p><b>Name</b>                  : Siti Nur Fatin bt. Zulkifli</p>
+<p><b>Nickname</b> : Fatin</p>
+<p><b>Age</b> : 20</p>
+<p><b>Date Of Birth</b>                     : 21-11-2001</p>
+<p><b>Birth Place</b>            : Taiping, Perak</p>
+<p><b>Sex</b>                       : Female</p>
+<p><b>Religion</b>                : Islam</p>
+<p><b>Nationality</b>            : Malay</p>
+<p><b>Language Spoken</b> : English , Malay</p>
+<p><b>Address</b>               : 44, Parit Haji Ali, Kedai Dua 34350 Kuala Kurau, Perak</p>
+<p><b>Ambition</b> : Business Woman</p>
+</div> 
+<div class="side2">
+<h3>Interest</h3>
+<br>
+1.Designing<br>
+2.Entrepreneurship<br>
+3.I love Kinder Bueno<br>
+<u><b>Hobbies</b></u><br>
+1.Watching Movies and Series<br>
+2.Web browsing<br>
+3.Facebook and WhatsApp<br>
+4.Cooking and baking<br>
+5.Shopping<br>
+</div>
+<div id="footer">
+<h4>Contact Information</h4>
+E-mail : 2019228334@student.uitm.edu.my<br>
+mobile no : 013-5607501<br>
+<a href="https://www.instagram.com/_.ftnzlkfli/"><u>visit instagram profile</u></a><br>
+ <div class="w3-xlarge w3-section">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+<a href="#" class="fa fa-snapchat-ghost"></a>
+<a href="#" class="fa fa-skype"></a>
+<a href="#" class="fa fa-android"></a>
+<a href="#" class="fa fa-dribbble"></a>
+<a href="#" class="fa fa-tumblr"></a>
+<a href="#" class="fa fa-yahoo"></a>
+</div>
+</div>
+  <br>
+  <br>
+  <br>
+  <br>
+    <br>
+  <br>
+  <br>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+<p>Created by Siti Nur Fatin binti Zulkifli, December 2021</p>
+<p>UiTM Kedah</p>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i> 
+	<i class="fa fa-whatsapp w3-hover-opacity"></i>  
+	<i class="fa fa-skype w3-hover-opacity"></i> 	
+  </div>  
+</footer>  
+</body>
+</html>

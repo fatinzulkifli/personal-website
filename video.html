@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<title>Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.header{
+  padding: 150px;
+  text-align: center;
+  color: black;
+  min-height: 50%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+w3-top{
+  padding-left: 0;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+   
+body{
+   background-color: #BC8F8F;
+   }
+
+* {
+  box-sizing: border-box;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+fa fa-info-circle{
+   padding: 70px;
+   }
+.content {
+  position: fixed; 
+  bottom: 0;
+  text-align:center;
+  color: #f1f1f1;
+  width: 100%;
+  padding-bottom: 350px;
+}
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5.5s steps(60, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+	
+div.gallery {
+  border: 3px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
+
+.responsive2 {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+   
+   h2{
+      text-align: center;
+	  font-family: "Times New Roman", Times, serif;
+	   font-size: 200%;
+	   color: white;
+	  }
+	  
+	  h4{
+	      text-align: center;
+		  font-family: "Lucida Console", "Courier New", monospace;
+		  font-size: 100%;
+		  	   color: white;
+		  } 
+</style>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+	<a href="index1.html" class="w3-bar-item w3-button w3-wide">
+    <span class="w3-display-left w3-text-white" style="padding:98px">
+    </span>Personal Website</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="biodata.html" class="w3-bar-item w3-button"><i class="fa fa-info-circle"></i> BIODATA</a>
+	  <a href="experience.html" class="w3-bar-item w3-button"><i class="fa fa-smile-o"></i> EXPERIENCE</a>
+	  <a href="edu.html" class="w3-bar-item w3-button"><i class="fa fa-mortar-board"></i> EDUCATION</a>
+	  <a href="family.html" class="w3-bar-item w3-button"><i class="fa fa-heartbeat"></i> FAMILY</a>
+	  <a href="gallery.html" class="w3-bar-item w3-button"><i class="fa fa-photo"></i> GALLERY</a>      
+      <a href="video.html" class="w3-bar-item w3-button"><i class="fa fa-video-camera"></i> MY VIDEO</a>	  
+    </div>
+  </div>
+</div>
+		<br>
+		<br>
+		<br>
+<h2>My Video</h2>
+
+<h4>simple video about my life.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <video width="500" height="350" controls>
+  <source src="vid1.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+  </div>
+</div>
+
+<div class="responsive2">
+  <div class="gallery">
+    <video width="500" height="350" controls>
+  <source src="vid2.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+  </div>
+</div>
+<div class="responsive2">
+  <div class="gallery">
+    <video width="500" height="350" controls>
+  <source src="vid3.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+  </div>
+</div>
+
+<div class="responsive2">
+  <div class="gallery">
+    <video width="500" height="350" controls>
+  <source src="vid4.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+  </div>
+</div>
+<div class="responsive2">
+  <div class="gallery">
+    <video width="500" height="350" controls>
+  <source src="vid5.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+  </div>
+</div>
+
+<div class="responsive2">
+  <div class="gallery">
+    <video width="500" height="350" controls>
+  <source src="vid6.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+  </div>
+</div>
+
+<div style="padding:6px;">
+  <p></p>
+  <p></p>
+</div>
+</body>
+</html>
+
+

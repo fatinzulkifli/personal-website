@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+<title>Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.header{
+  padding: 190px;
+  text-align: center;
+  color: black;
+  background-color: #2E8B57;
+  background-size: 100% 120%;
+  min-height: 50%;
+}
+
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+w3-top{
+  padding-left: 0;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  word-break: break-all;
+}
+
+h3{
+ margin-top: -99px;
+}
+
+
+table, th, td {
+  border:3px solid black;
+  margin-left: 170px;
+}
+
+
+.mySlides {
+display:none;
+ border:3px solid black;
+}
+
+</style>
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+	<a href="index1.html" class="w3-bar-item w3-button w3-wide">
+    <span class="w3-display-left w3-text-white" style="padding:98px">
+    </span>Personal Website</a>
+    <!-- Right-sided navbar links -->
+   <div class="w3-right w3-hide-small">
+     <a href="biodata.html" class="w3-bar-item w3-button"><i class="fa fa-info-circle"></i> BIODATA</a>
+	  <a href="experience.html" class="w3-bar-item w3-button"><i class="fa fa-smile-o"></i> EXPERIENCE</a>
+	  <a href="edu.html" class="w3-bar-item w3-button"><i class="fa fa-mortar-board"></i> EDUCATION</a>
+	  <a href="family.html" class="w3-bar-item w3-button"><i class="fa fa-heartbeat"></i> FAMILY</a>
+	  <a href="gallery.html" class="w3-bar-item w3-button"><i class="fa fa-image"></i> GALLERY </a>    
+	  <a href="video.html" class="w3-bar-item w3-button"><i class="fa fa-video-camera"></i> MY VIDEO</a> 	      
+    </div>
+  </div>
+</div>
+
+
+
+<header class="header w3-display-container">
+
+
+<table style="width:100% align:center">
+<h3><b><center>ABOUT MY FAMILY</b></center></h3>
+<tr>
+<td COLSPAN="3" align="center"><img src="family 1.jpg"></td>
+<tr align="center" COLSPAN="6" background="background 2.jpg">
+<th ROWSPAN="4">My Family</th>
+<th>Name</th>
+<th>Relationship</th>
+</tr>
+<tr align="center" COLSPAN="6" background="background 2.jpg">
+<td>Zulkifli bin Nasir</td>
+<td>Father</td>
+</tr>
+<tr align="center" COLSPAN="6" background="background 2.jpg">
+<td>Suria binti Abdul Hamid</td>
+<td>Mother</td>
+</tr>
+<tr align="center" COLSPAN="6" background="background 2.jpg">
+<td>Nur Syifa Yumna</td>
+<td>Younger Sister</td>
+</tr>
+</table>
+
+<br><br><br>
+<h4><b>PICTURE OF MY FAMILY<b></h4>
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="fam2.png" style="width:100%">
+  <img class="mySlides" src="fam1.png" style="width:100%">
+  <img class="mySlides" src="fam3.png" style="width:100%">
+    <img class="mySlides" src="fam4.png" style="width:100%">
+	  <img class="mySlides" src="fam5.png" style="width:100%">
+	    <img class="mySlides" src="fam6.png" style="width:100%">
+		  <img class="mySlides" src="fam7.png" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</header>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+<p>Created by Siti Nur Fatin binti Zulkifli, December 2021</p>
+<p>UiTM Kedah</p>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i> 
+	<i class="fa fa-whatsapp w3-hover-opacity"></i>  
+	<i class="fa fa-skype w3-hover-opacity"></i> 	
+  </div>  
+</footer> 
+</body>
+</html>

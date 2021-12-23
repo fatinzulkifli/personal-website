@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html>
+<title>Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.header{
+  padding: 150px;
+  text-align: center;
+  color: black;
+  min-height: 50%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+w3-top{
+  padding-left: 0;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+   
+body{
+   background-color: #FFEBCD;
+   }
+
+fa fa-info-circle{
+   padding: 70px;
+   }
+.content {
+  position: fixed; 
+  bottom: 0;
+  text-align:center;
+  color: #f1f1f1;
+  width: 100%;
+  padding-bottom: 350px;
+}
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5.5s steps(60, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+div.gallery {
+  border: 2px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p{
+   font-family: "Lucida Handwriting", cursive;
+   text-align: center;
+   }
+   
+   h2{
+      text-align: center;
+	  font-family: "Times New Roman", Times, serif;
+	   font-size: 200%;
+	   color: black;
+	    bottom: 0;
+	  }
+	  
+	  h4{
+	      text-align: center;
+		  font-family: "Lucida Console", "Courier New", monospace;
+		  font-size: 100%;
+		  	   color: black;
+			   
+		  }
+		  
+</style>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+	<a href="index1.html" class="w3-bar-item w3-button w3-wide">
+    <span class="w3-display-left w3-text-white" style="padding:98px">
+    </span>Personal Website</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="biodata.html" class="w3-bar-item w3-button"><i class="fa fa-info-circle"></i> BIODATA</a>
+	  <a href="experience.html" class="w3-bar-item w3-button"><i class="fa fa-smile-o"></i> EXPERIENCE</a>
+	  <a href="edu.html" class="w3-bar-item w3-button"><i class="fa fa-mortar-board"></i> EDUCATION</a>
+	  <a href="family.html" class="w3-bar-item w3-button"><i class="fa fa-heartbeat"></i> FAMILY</a>
+	  <a href="gallery.html" class="w3-bar-item w3-button"><i class="fa fa-photo"></i> GALLERY</a>      
+      <a href="video.html" class="w3-bar-item w3-button"><i class="fa fa-video-camera"></i> MY VIDEO</a>	  
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<h2>My Gallery</h2>
+
+<h4>memory about myself.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="1.png">
+      <img src="1.png" alt="Cinque Terre" width="500" height="100">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="5.png">
+      <img src="5.png" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="6.png">
+      <img src="6.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="7.png">
+      <img src="7.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="5.png">
+      <img src="5.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="4.png">
+      <img src="4.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="double.png">
+      <img src="double.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="3.png">
+      <img src="10.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>“Our memory is a more perfect world than the universe: it gives back life to those who no longer exist.”</p>
+  <p></p>
+</div>
+<br>
+<!-- Footer -->
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+<p>Created by Siti Nur Fatin binti Zulkifli, December 2021</p>
+<p>UiTM Kedah</p>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i> 
+	<i class="fa fa-whatsapp w3-hover-opacity"></i>  
+	<i class="fa fa-skype w3-hover-opacity"></i> 	
+  </div>  
+</footer>  
+
+</body>
+</html>
+
+
